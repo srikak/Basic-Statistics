@@ -1,10 +1,25 @@
 # Mean 
 def mean(array):
+    '''
+    INPUT
+    array : 1D float array, list
+    
+    OUTPUT
+    avg : mean of the 1D array, float
+    '''
+    
     avg = sum(array)/len(array)
     return avg
 
 # Median
 def median(array):
+    '''
+    INPUT
+    array : 1D float array, list
+    
+    OUTPUT
+    med : median of the 1D array, float
+    '''
     # Sort the array
     array = sorted(array)
     
@@ -21,6 +36,13 @@ def median(array):
 
 # Mode
 def mode(array):
+    '''
+    INPUT
+    array : 1D float array, list
+    
+    OUTPUT
+    tmode : mode of the 1D array, float
+    '''
     # Obtain unique elements in the array and sort them in ascending order
     unique = sorted(list(set(array)))
     
