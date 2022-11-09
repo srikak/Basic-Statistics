@@ -1,3 +1,7 @@
+'''
+This file contains the functions to calculate the measures of central tendencies viz. mean, median, and mode of a 1D array.
+'''
+
 # Mean 
 def mean(array):
     '''
